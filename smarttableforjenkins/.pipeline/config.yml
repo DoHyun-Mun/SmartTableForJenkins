@@ -1,4 +1,0 @@
-general:
-steps:
-  mtaBuild:
-    buildTarget: 'CF'
