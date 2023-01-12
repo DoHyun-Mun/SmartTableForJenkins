@@ -2,3 +2,11 @@ general:
 steps:
   mtaBuild:
     buildTarget: 'CF'
+  cloudFoundryDeploy:
+    deployTool: 'mtaDeployPlugin'
+    deployType: 'standard'
+    cloudFoundry:
+      apiEndpoint: 'https://api.cf.ap11.hana.ondemand.com/'
+      org: 'BTPKRMTA_wzariba'
+      space: 'dev'
+      credentialsId: 'wzariba'
