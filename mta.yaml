@@ -47,17 +47,7 @@ modules:
       - comsapdemosmarttableforjenkins.zip
       name: comsapdemosmarttableforjenkins
       target-path: resources/
-- name: comsapdemosmarttableforjenkins
-  type: html5
-  path: .
-  build-parameters:
-    build-result: dist
-    builder: custom
-    commands:
-    - npm install
-    - npm run build:cf
-    supported-platforms: []
-- name: smarttableforjenkins
+- name: com-sap-demo-smarttableforjenkins
   type: nodejs
   path: .    
 resources:
