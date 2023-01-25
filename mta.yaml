@@ -49,7 +49,17 @@ modules:
       target-path: resources/
 - name: com-sap-demo-smarttableforjenkins
   type: nodejs
-  path: .    
+  path: . 
+- name: comsapdemosmarttableforjenkins
+  type: html5
+  path: .
+  build-parameters:
+    build-result: dist
+    builder: custom
+    commands:
+    - npm install
+    - npm run build:cf
+    supported-platforms: []     
 resources:
 - name: com-sap-demo-smarttableforjenkins-destination-service
   type: org.cloudfoundry.managed-service
