@@ -1,4 +1,8 @@
 @Library('piper-lib-os') _
+
+fioriOnCloudPlatformPipeline script:this
+mtaBuild script: this
+
 node() {
     stage('prepare') {
         checkout scm
