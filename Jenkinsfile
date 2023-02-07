@@ -1,5 +1,7 @@
 @Library('piper-lib-os') _
 
+fioriOnCloudPlatformPipeline script:this
+/*
 node() {
     stage('prepare') {
         checkout scm
@@ -12,3 +14,4 @@ node() {
         cloudFoundryDeploy script: this
     }
 }
+*/
