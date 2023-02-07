@@ -1,12 +1,15 @@
 @Library('piper-lib-os') _
 
+/* Fiori Deploy */
 fioriOnCloudPlatformPipeline script:this
+
+/* CAP CDS Deploy */
 /*
 node() {
-    stage('prepare') {
-        checkout scm
-        setupCommonPipelineEnvironment script:this
-    }
+    //stage('prepare') {
+    //    checkout scm
+    //    setupCommonPipelineEnvironment script:this
+    //}
     stage('build') {
         mtaBuild script: this
     }
