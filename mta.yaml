@@ -47,9 +47,6 @@ modules:
       - comsapdemosmarttableforjenkins.zip
       name: comsapdemosmarttableforjenkins
       target-path: resources/
-- name: com-sap-demo-smarttableforjenkins
-  type: nodejs
-  path: . 
 - name: comsapdemosmarttableforjenkins
   type: html5
   path: .
