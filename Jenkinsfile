@@ -2,6 +2,7 @@
 
 /* Fiori Deploy */
 fioriOnCloudPlatformPipeline script:this
+piperPipeline script:this
 
 /* CAP CDS Deploy */
 /*
