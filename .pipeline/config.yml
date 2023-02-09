@@ -13,6 +13,5 @@ steps:
   tmsUpload:
     credentialsId: 'tmscicd'
     nodeName: 'PRE-PRD'
-    mtaPath: 'comsapdemosmarttableforjenkins'
+    mtaPath: 'com-sap-demo-smarttableforjenkins'
     customDescription: 'Smart Table For Jenkins TMS Upload'
-    
