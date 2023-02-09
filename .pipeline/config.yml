@@ -10,3 +10,12 @@ steps:
       org: 'BTPKRMTA_wzariba'
       space: 'dev'
       credentialsId: 'wzariba'
+  tmsUpload:
+    credentialsId: 'tmscicd'
+    nodeName: 'PRE-PRD'
+    mtaPath: 'comsapdemosmarttableforjenkins'
+    customDescription: 'Smart Table For Jenkins TMS Upload'
+
+stages:
+  Release:
+    tmsUpload: true
