@@ -15,7 +15,4 @@ steps:
     nodeName: 'PRE-PRD'
     mtaPath: 'comsapdemosmarttableforjenkins'
     customDescription: 'Smart Table For Jenkins TMS Upload'
-
-stages:
-  Release:
-    tmsUpload: true
+    
